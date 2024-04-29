@@ -1,0 +1,52 @@
+.carrossel_conteudo {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0);
+    height: auto;
+}
+
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.painel {
+    height: auto;
+    
+}
+.imagem__certificado{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.content {
+    padding: 20px;
+}
+
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: #00ff37c2;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.prev {
+    left: 10px;
+}
+
+
+.next {
+    right: 10px;
+}
