@@ -9,7 +9,7 @@
 }
 
 body{
-    height:100vh;
+    min-width: 100vw;
     box-sizing: border-box;
     background-color: #24272C;
     padding: -10px 10px 50px 30px;
@@ -51,7 +51,7 @@ h1{
     margin: 0 1rem 0 1rem;
 }
 .navegacao{
-    width: 18rem;
+    width: 15rem;
     border-radius: 10rem;
     box-shadow: -5px -3px 20px -3px /*#6086D3;*/rgba(128, 128, 128, 0.5);
 }
@@ -236,8 +236,23 @@ h1{
   .carousel-control.left,.carousel-control.right {
     margin-left: 0;
   }
-  @media (max-width: 840){
+  @media screen and (max-width: 700px){
     .apresentacao{
-        flex-direction: column-reverse;
+        flex-direction:row;
+        display: flex;
+    }
+    #conctact-form{
+        margin-bottom: 3rem;
+    }
+    .container__principal {
+        display: flex;
+        flex-direction: column;
+    }
+    .h1__contato{
+        margin:3rem 0 5rem 0;
+    }
+    .resumo__apresentacao__texto{
+        width: 100%;
+        font-size: 1rem;
     }
   }
