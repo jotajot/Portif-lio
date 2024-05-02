@@ -7,8 +7,13 @@
     <title>Certificações</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="./styles/slick.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
 </head>
-<body>
+<main>
+  <body>
     <section id="fake__body">
         <header class="cabecalho">
             <nav class="cabecalho__menu">
@@ -19,31 +24,47 @@
                 <a class="cabecalho__menu__link">Projetos</a>
             </nav>
         </header>
-            <body>
-              <div class="carrossel_conteudo">
-                <div class="carousel" id="carrossel">
-                  <div class="painel">
-                    <img src="./image/git e github.jpeg" class="imagem__certificado">
-                  </div>
-                  <div class="painel">
-                    <img src="./image/html e css.jpeg" class="imagem__certificado">
-                  </div>
-                  <div class="painel">
-                    <img src="./image/java básico.jpeg" class="imagem__certificado">
-                  </div>
-                  <div class="painel">
-                    <img src="./image/javascript.jpeg" class="imagem__certificado">
-                  </div>
-                  <div class="painel">
-                    <img src="./image/lógica de programação dio.jpeg" class="imagem__certificado">
-                  </div>
-                  <div class="painel">
-                    <img src="./image/metodologia ágil.jpeg" class=imagem__certificado">    
-                  </div>
+        <body>
+          <span class="titulo">Certificações</span>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="./image/git e github.jpeg" alt="Foto 01">
                 </div>
-                <button class="prev" onclick="changePanel(-1)">&#8249;</button>
-            <button class="next" onclick="changePanel(1)">&#8250;</button>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="./image/html e css.jpeg" alt="Foto 02">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="./image/java básico.jpeg" alt="Foto 03">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="./image/javascript.jpeg" alt="Foto 04">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="./image/lógica de programação dio.jpeg" alt="Foto 05">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="./image/metodologia ágil.jpeg" alt="Foto 06">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
           </div>
+        </main>
+          <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
           <script src="./slick/slick.min.js"></script>
         </body>
 </html>
