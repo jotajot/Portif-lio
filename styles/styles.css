@@ -185,7 +185,7 @@ h1{
     border: 1px solid red;
 }
 .sobre__mim__geral {
-    padding: 5% 10% 0% 8%;
+    padding: 3% 10% 8% 8%;
     text-align: center; /* Centraliza o texto horizontalmente */
   }
   
@@ -217,8 +217,32 @@ h1{
     font-size: 1rem;
   }
 
-.projeto__robotron{
-    width: 20%;
+  .caixa-branca {
+    background-color: #ffffff; /* Cor de fundo branca */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #cccccc; /* Borda */
+    border-radius: 20px; /* Borda arredondada */
+    width: 25rem; /* Largura da caixa */
+    margin-left: 10%;
+  }
+  
+  .caixa-branca img {
+    max-width: 100%; /* Imagem responsiva */
+    display: block; /* Para centralizar a imagem */
+    margin: 0 auto; /* Centralizar a imagem horizontalmente */
+  }
+  
+  .caixa-branca p {
+    font-size: 14px; /* Tamanho da fonte */
+    color: #333333; /* Cor do texto */
+    margin-top: 10px; /* Espaçamento acima do texto */
+    text-align: center; /* Centralizar o texto */
+  }
+
+.meu-robotron{
+    width: 30rem;
+    margin-left: 10%;
+    border-radius: 10%;
 }
 
   @media screen and (max-width: 700px){
