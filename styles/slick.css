@@ -1,20 +1,12 @@
-main {
-    height: 100;
-    width: 700;
-    max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-  }
-  
-  span {
-    font-size: x-large;
-  }
-
-  .titulo{
+  .titulo {
+    font-family: var(--fonte-cabecalho);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
     display: flex;
     text-align: center;
+    justify-content: center;
+    margin-top: 3%;
   }
   
   img {
@@ -24,6 +16,7 @@ main {
   
   .swiper {
     height: 500px;
+    margin-top: 2%;
   }
   
   .swiper-slide {
@@ -32,14 +25,15 @@ main {
     align-items: center;
     justify-content: center;
   }
+  
   .swiper-button-prev {
     position: absolute;
     top: 50%;
     width: calc(var(--swiper-navigation-size) / 44* 27);
     height: var(--swiper-navigation-size);
     margin-top: calc(0px -(var(--swiper-navigation-size) / 2));
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
     z-index: 10;
     cursor: pointer;
     display: flex;
@@ -54,8 +48,8 @@ main {
     width: calc(var(--swiper-navigation-size) / 44* 27);
     height: var(--swiper-navigation-size);
     margin-top: calc(0px -(var(--swiper-navigation-size) / 2));
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
     z-index: 10;
     cursor: pointer;
     display: flex;
