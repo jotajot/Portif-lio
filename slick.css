@@ -40,6 +40,7 @@
     align-items: center;
     justify-content: center;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
+    opacity: 15%;
 }
 
 .swiper-button-next {
@@ -56,6 +57,7 @@
     align-items: center;
     justify-content: center;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
+    opacity: 15%;
 }
   
   @media (max-width: 450px) {
