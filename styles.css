@@ -163,6 +163,7 @@ h1{
     justify-content: space-around;
     align-items: center;
     gap: 5rem;
+    margin-bottom: 12%;
 }
 
 .contact__corpo{
@@ -223,7 +224,10 @@ h1{
     border: 1px solid #cccccc; /* Borda */
     border-radius: 20px; /* Borda arredondada */
     width: 25rem; /* Largura da caixa */
-    margin-left: 10%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   
   .caixa-branca img {
