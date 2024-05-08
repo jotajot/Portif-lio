@@ -227,7 +227,7 @@ h1{
 
   .caixa-branca {
     background-color: #ffffff; /* Cor de fundo branca */
-    padding: 10px; /* Espaçamento interno */
+    padding: 0px; /* Espaçamento interno */
     border: 1px solid #cccccc; /* Borda */
     border-radius: 20px; /* Borda arredondada */
     width: 25rem; /* Largura da caixa */
@@ -277,6 +277,18 @@ h1{
     border-radius: 10%;
 }
 
+.controle-de-estoque{
+    width: 30rem;
+    margin-left: 10%;
+    border-radius: 10%;
+}
+
+.jogo-numero-secreto{
+    width: 30rem;
+    margin-left: 10%;
+    border-radius: 10%;
+}
+
   @media screen and (max-width: 700px){
     .apresentacao{
         flex-direction:row;
@@ -298,6 +310,7 @@ h1{
     }
     .body{
         background-color: #24272C;
-       max-width: 100%;
+        min-width: 100vh;
     }
+
   }
