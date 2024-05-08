@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(./reset.css);
 
 *{
@@ -6,6 +7,7 @@
 }
 :root{
     --fonte-cabecalho: 'Poppins', sans-serif; 
+    --fonte-legenda: 'Montserrat', sans-serif;
 }
 
 body{
@@ -218,32 +220,58 @@ h1{
     font-size: 1rem;
   }
 
+  .projeto__img{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .caixa-branca {
     background-color: #ffffff; /* Cor de fundo branca */
     padding: 10px; /* Espaçamento interno */
     border: 1px solid #cccccc; /* Borda */
     border-radius: 20px; /* Borda arredondada */
     width: 25rem; /* Largura da caixa */
-    margin: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin-left: 10%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    transition: transform 0.3s ease;
+  }
+  .caixa-branca:nth-last-child(1),
+  .caixa-branca:nth-last-child(2){
+    order: 1;
+  }
+
+  .caixa-branca:nth-last-child(3),
+  .caixa-branca:nth-last-child(4){
+    order: 2;
+  }
+
+  .caixa-branca:hover{
+    transform: scale(1.1);
   }
   
   .caixa-branca img {
     max-width: 100%; /* Imagem responsiva */
     display: block; /* Para centralizar a imagem */
     margin: 0 auto; /* Centralizar a imagem horizontalmente */
+    height: auto;
   }
   
   .caixa-branca p {
+    font-family: var(--fonte-legenda);
     font-size: 14px; /* Tamanho da fonte */
+    font-weight: 400;
     color: #333333; /* Cor do texto */
     margin-top: 10px; /* Espaçamento acima do texto */
     text-align: center; /* Centralizar o texto */
   }
 
 .meu-robotron{
+    width: 30rem;
+    margin-left: 10%;
+    border-radius: 10%;
+}
+.alura-midi{
     width: 30rem;
     margin-left: 10%;
     border-radius: 10%;
@@ -267,5 +295,9 @@ h1{
     .resumo__apresentacao__texto{
         width: 100%;
         font-size: 1rem;
+    }
+    .body{
+        background-color: #24272C;
+       max-width: 100%;
     }
   }
